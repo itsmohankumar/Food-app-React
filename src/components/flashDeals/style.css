@@ -1,0 +1,11 @@
+.flash {
+  background: #f6f9fc;
+  padding: 50px 0;
+}
+.slide-img-size {
+  width: 240px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: top;
+}

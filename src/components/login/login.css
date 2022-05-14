@@ -1,0 +1,182 @@
+@media only screen and (max-width: 768px) {
+
+    /* For tablets: */
+    .ping-col-s-1 {
+        width: 8.33%;
+    }
+
+    .ping-col-s-2 {
+        width: 16.66%;
+    }
+
+    .ping-col-s-3 {
+        width: 25%;
+    }
+
+    .ping-col-s-4 {
+        width: 33.33%;
+    }
+
+    .ping-col-s-5 {
+        width: 41.66%;
+    }
+
+    .ping-col-s-6 {
+        width: 50%;
+    }
+
+    .ping-col-s-7 {
+        width: 58.33%;
+    }
+
+    .ping-col-s-8 {
+        width: 66.66%;
+    }
+
+    .ping-col-s-9 {
+        width: 75%;
+    }
+
+    .ping-col-s-10 {
+        width: 83.33%;
+    }
+
+    .ping-col-s-11 {
+        width: 91.66%;
+    }
+
+    .ping-col-s-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* For desktop: */
+     .ping-col-1 {
+        width: 8.33%;
+    }
+
+     .ping-col-2 {
+        width: 16.66%;
+    }
+
+     .ping-col-3 {
+        width: 25%;
+    }
+
+     .ping-col-4 {
+        width: 33.33%;
+    }
+
+     .ping-col-5 {
+        width: 41.66%;
+    }
+
+     .ping-col-6 {
+        width: 50%;
+    }
+
+     .ping-col-7 {
+        width: 58.33%;
+    }
+
+     .ping-col-8 {
+        width: 66.66%;
+    }
+
+     .ping-col-9 {
+        width: 75%;
+    }
+
+     .ping-col-10 {
+        width: 83.33%;
+    }
+
+    .ping-col-11 {
+        width: 91.66%;
+    }
+
+    .ping-col-12 {
+        width: 100%;
+    }
+}
+
+.login-row {
+    display: flex;
+    flex-direction: row;
+}
+.login-left-side {
+    justify-content: start;
+}
+.login-right-side {
+    justify-content: end;
+    margin-left: 8rem;
+}
+.login-food-img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-food-img {
+    width: 600px;
+    margin-top: 2rem;
+    height: 520px;
+    border-radius: 5%;
+}
+.text-wrapper {
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.login-food-card-wrapper {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: 30px !important;
+}
+
+.card1 {
+    width: 400px;
+    height: 250px;
+    margin-top: 2rem;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px 1px rgba(0,0,0,0.06), 0 1px 4px rgba(0,0,0,0.08);
+}
+.login-food-card-input-wrapper {
+    width: 290px;
+    margin-top: 2rem;
+    margin-left: 2.9rem;
+
+}
+.login-food-card-input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    /* box-sizing: border-box; */
+}
+
+.signBtn {
+    width: 80px;
+    border-radius: 10px;
+    height: 32px;
+    background-color: transparent;
+    border: 2px solid greenyellow;
+    color: greenyellow;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.login-err-text {
+    color: red;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .login-food-img-wrapper {
+      display: none;
+    }
+  }
